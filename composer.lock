@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "1b0875523c9379ad905f3d75cc3c042f",
+    "content-hash": "08d4c982ae3a38a84f9c324991b9b3a0",
     "packages": [
         {
             "name": "adamwathan/laravel-preset",
@@ -449,6 +449,54 @@
                 }
             ],
             "time": "2015-04-20T18:58:01+00:00"
+        },
+        {
+            "name": "knox/pesapal",
+            "version": "1.3.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/knox2/Pesapal.git",
+                "reference": "f325e3d99a69ab19281e5f990bb820cf04d863b6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/knox2/Pesapal/zipball/f325e3d99a69ab19281e5f990bb820cf04d863b6",
+                "reference": "f325e3d99a69ab19281e5f990bb820cf04d863b6",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "5.*",
+                "php": ">=5.5.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Knox\\Pesapal\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Timothy Radier",
+                    "email": "timothyradier@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A laravel package that integrates into the pesapal api",
+            "homepage": "https://github.com/knox2/pesapal",
+            "keywords": [
+                "Orange Money",
+                "laravel 5",
+                "mastercard",
+                "mpesa",
+                "payments",
+                "pesapal",
+                "visa"
+            ],
+            "time": "2017-04-24T11:03:32+00:00"
         },
         {
             "name": "laravel/framework",
