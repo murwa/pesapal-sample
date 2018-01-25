@@ -16,7 +16,7 @@ class PesapalController extends Controller
      */
     public function ipn(Request $request)
     {
-        //
+        // Handle IPN
     }
 
     /**
@@ -26,6 +26,11 @@ class PesapalController extends Controller
      */
     public function success(Request $request)
     {
-        //
+        // Handle callback
+    }
+
+    public function init(Request $request)
+    {
+        // Init pesapal payment...
     }
 }
